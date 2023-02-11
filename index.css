@@ -1,0 +1,53 @@
+div .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.form {
+    display: flex;
+    margin-inline: 15%;
+    flex-direction: column;
+}
+
+.form  input {
+    width: 100%;
+    height: 32px;
+    margin-bottom: 12px;
+
+}
+
+.form >div {
+    display: flex;
+}
+
+.zoom_btn {
+    position: fixed;
+    top: 8%;
+    right: 5%;
+}
+
+.zoom_btn button {
+    height: 30px;
+    width: 30px;
+    margin-left: 6px;
+}
+
+.form div input {
+    width: 30%;
+}
+
+.form button {
+    height: 32px;
+    width: 40px;
+}
+
+.slide_container {
+    width: 100%;
+    margin: auto;
+}
+
+.slide_container img {
+    width: 100%;
+}
