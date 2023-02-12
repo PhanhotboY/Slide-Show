@@ -41,6 +41,7 @@ div .container {
 .form button {
     height: 32px;
     width: 40px;
+    margin-left: 8px;
 }
 
 .slide_container {
